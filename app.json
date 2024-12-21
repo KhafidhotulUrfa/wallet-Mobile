@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "bsi24",
+    "slug": "walled-odp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.urfa10.walletmobile"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android":{
+            "usesCleartextTraffic": true
+          },
+          "ios": {
+            "flipper": true
+          }
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6da76681-a9c9-4f20-8d70-b066fd8d2cce"
+      }
+    },
+    "owner": "urfa10"
+  }
+}
